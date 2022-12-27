@@ -1,0 +1,20 @@
+andar calculate(una, operator, pangalawa):
+  kung operator katumbas_ng '+':
+    pabalik una + pangalawa
+  kung operator katumbas_ng '-':
+    pabalik una - pangalawa
+  kung operator katumbas_ng '*':
+    pabalik una * pangalawa
+  kung operator katumbas_ng '/':
+    pabalik una / pangalawa
+
+una ay_gawing kabuuan(magpalagay("Ilagay ang unang numero: "))
+op ay_gawing magpalagay("Ipasok ang operator (+, -, *, /): ")
+pangalawa ay_gawing kabuuan(magpalagay("Ilagay ang pangalawang numero: "))
+
+resulta ay_gawing calculate(una, op, pangalawa)
+
+kung resulta katumbas_ng wala:
+  sulat('Walang Sagot.')
+kundi:
+  sulat('Sagot: ', resulta)
