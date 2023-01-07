@@ -40,7 +40,9 @@ keywords = {
           "ani": "yield",
           "kabuuan": "int",
           "matematika": "math",
-          "magpalagay": "input"
+          "magpalagay": "input",
+          "kada": "for",
+          "saklaw": "range"
 }
 
 splitters = [

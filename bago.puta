@@ -3,3 +3,6 @@ kung "a" hindi nasa listahan:
   sulat('Wala ang "a" sa `listahan`.')
 kundi:
   sulat('Nasa `listahan` ang "a".')
+
+kada numero nasa saklaw(0, 5):
+  sulat(f'Numero: {numero}')
