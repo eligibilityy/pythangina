@@ -1,0 +1,5 @@
+listahan ay_gawing ["a", "b"]
+kung "a" hindi nasa listahan:
+  sulat('Wala ang "a" sa `listahan`.')
+kundi:
+  sulat('Nasa `listahan` ang "a".')
