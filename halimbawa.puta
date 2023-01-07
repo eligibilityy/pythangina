@@ -18,3 +18,4 @@ kung resulta katumbas_ng wala:
   sulat('Walang Sagot.')
 kundi:
   sulat('Sagot: ', resulta)
+

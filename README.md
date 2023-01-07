@@ -12,8 +12,7 @@ Itakbo ang file na `pythangina.py`, pagkatapos ay ilagay ang atas sa terminal: `
 
 ### Mga Kilalang Isyu
 
-- Hindi ko magawang gumana ang "for" loop. Marahil ito ay may kinalaman sa kung paano nakikita ng aking code ang mga splitter o ang mga keyword ngunit sa ngayon ay susubukan kong alamin kung ano ang sanhi nito.
-- Maliban diyan, hindi ko pa ito masyadong napaglalaruan. Gaya ng sinabi ko, isa lang akong front-end dev, at gusto ko lang gawin ang proyektong ito para sa saya, at ang proyektong ito ay (baka) hindi magiging pang-seryosohan.
+- Hindi ko pa ito masyadong napaglalaruan. Gaya ng sinabi ko, isa lang akong front-end dev, at gusto ko lang gawin ang proyektong ito para sa saya, at ang proyektong ito ay (baka) hindi magiging pang-seryosohan.
 
 ### (Medyo) Mga Layunin
 

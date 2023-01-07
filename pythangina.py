@@ -44,7 +44,6 @@ def interpret(filepath):
         code = f.read()
 
     translated_code = translate(code, file_extension)
-    
     exec(translated_code)
 
 class TagalogInterpreter(cmd.Cmd):
