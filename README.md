@@ -10,6 +10,26 @@ Ang `Pythangina Programming Language` ay isang scripting language na hango sa **
 
 Itakbo ang file na `pythangina.py`, pagkatapos ay ilagay ang atas sa terminal: `execute halimbawa.puta` O `execute pangalawang_halimbawa.puta`
 
+#### Halimbawa
+
+```python
+# Pasok:
+
+listahan ay_gawing ["a", "b"]
+kung "a" hindi nasa listahan:
+  sulat('Wala ang "a" sa `listahan`.')
+kundi:
+  sulat('Nasa `listahan` ang "a".')
+```
+```python
+# Labas:
+listahan = ["a", "b"]
+if "a" not in listahan:
+  print('Wala ang "a" sa `listahan`.')
+else:
+  print('Nasa `listahan` ang "a".')
+```
+
 ### Mga Kilalang Isyu
 
 - Hindi ko pa ito masyadong napaglalaruan. Gaya ng sinabi ko, isa lang akong front-end dev, at gusto ko lang gawin ang proyektong ito para sa saya, at ang proyektong ito ay (baka) hindi magiging pang-seryosohan.

@@ -16,6 +16,7 @@ keywords = {
           "ituloy": "continue",
           "kung": "if",
           "eh_paano_kung": "elif",
+          "ay_gawing": "=",
           "kundi": "else",
           "bawat": "for",
           "nasa": "in",
