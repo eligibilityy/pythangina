@@ -1,0 +1,7 @@
+mga_numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+kada numero nasa mga_numero:
+    kung numero % 2 == 0:
+        sulat(f"Ang numerong {numero} ay isang *even number.*")
+    kundi:
+        sulat(f"Ang numerong {numero} ay isang *odd number.*")    
