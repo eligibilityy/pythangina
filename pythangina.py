@@ -1,6 +1,7 @@
 import os
 import sys
 import cmd
+import subprocess
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'keywords'))
 
@@ -44,7 +45,14 @@ def interpret(filepath):
         code = f.read()
 
     translated_code = translate(code, file_extension)
-    exec(translated_code)
+
+    # Write translated code to new .py file
+    new_filepath = filepath.replace(".puta", ".py")
+    with open(new_filepath, "w") as f:
+        f.write(translated_code)
+
+    # Run that one instead of just doing exec()
+    subprocess.run(["python", new_filepath])
 
 class TagalogInterpreter(cmd.Cmd):
     intro = "Maligayang pagdating sa Tagalog Python Interpreter! I-type ang 'help' para sa isang listahan ng mga command."
